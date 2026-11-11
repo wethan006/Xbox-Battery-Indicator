@@ -10,6 +10,15 @@ A tiny Windows 11 tray app that shows your Bluetooth controller's battery level 
 - **Xbox Mode On Start-Up** (optional): switches to Windows' Xbox mode after you log in, for desktop PCs that don't have Windows' own startup option
 - No dependencies: plain PowerShell and built-in Windows components
 
+## Icon styles
+
+Pick a style from **Icon style** in the right-click menu. The icon follows your Windows light or dark theme.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/icons-dark.png">
+  <img src="images/icons-light.png" alt="The four icon styles at 100%, 60%, 25% and not connected">
+</picture>
+
 ## Install
 
 1. Download and extract the zip.
@@ -62,3 +71,4 @@ Windows blocks unsigned PowerShell scripts by default. The installer and shortcu
 - `Install-StartAtLogin.cmd`: installer
 - `Uninstall.cmd`: uninstaller
 - `gamepad_dark.ico`, `gamepad_light.ico`: Start menu icons for dark and light mode
+- `images/`: icon previews for this README
