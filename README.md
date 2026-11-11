@@ -61,6 +61,11 @@ To test, run in PowerShell:
 powershell -ExecutionPolicy Bypass -File .\ControllerBatteryWarning.ps1 -Test
 ```
 
+Use this for testing the icons, by changing the FakePercent Number
+```powershell
+powershell -ExecutionPolicy Bypass -File .\ControllerBatteryWarning.ps1 -FakePercent 50
+```
+
 ## About `-ExecutionPolicy Bypass`
 
 Windows blocks unsigned PowerShell scripts by default. The installer and shortcuts use `-ExecutionPolicy Bypass` so this one script can run without changing your system-wide policy. Feel free to read the script first; it reads Bluetooth battery info, shows the tray icon and notifications, and only writes to its own folder in `%LOCALAPPDATA%`.
