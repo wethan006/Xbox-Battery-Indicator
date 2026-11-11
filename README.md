@@ -15,8 +15,8 @@ A tiny Windows 11 tray app that shows your Bluetooth controller's battery level 
 Pick a style from **Icon style** in the right-click menu. The icon follows your Windows light or dark theme.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="images/icons-dark.png">
-  <img src="images/icons-light.png" alt="The four icon styles at 100%, 60%, 25% and not connected">
+  <source media="(prefers-color-scheme: dark)" srcset="icons-dark.png">
+  <img src="icons-light.png" alt="The four icon styles at 100%, 60%, 25% and not connected">
 </picture>
 
 ## Install
