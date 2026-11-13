@@ -22,7 +22,7 @@ Pick a style from **Icon style** in the right-click menu. The icon follows your 
 ## Install
 
 1. Download and extract the zip.
-2. Double-click `Install-StartAtLogin.cmd`.
+2. Double-click `Install-StartAtLogin.cmd`. (You will have to run as Admin if you get a security warning)
 
 It copies everything to `%LOCALAPPDATA%\ControllerBatteryWarning`, adds a startup shortcut and a Start menu entry, and starts the app. You can delete the extracted folder afterwards.
 
